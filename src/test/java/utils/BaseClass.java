@@ -1,8 +1,9 @@
 package utils;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
 
 /**
  * Created by gilsa on 17/08/2017.
@@ -19,8 +20,27 @@ public class BaseClass {
         return driver;
     }
 
-    @AfterTest
-    public void tearDown(){
-        getDriver().quit();
+    /**
+     * HighLight an element
+     *
+     * @param element
+     * @throws Exception
+     *
+     * @throws InterruptedException
+     */
+    public void highlight(WebElement element) throws Exception{
+        //Creating JavaScriptExecuter Interface
+        JavascriptExecutor js = (JavascriptExecutor)getDriver();
+        for (int iCnt = 0; iCnt < 3; iCnt++) {
+            //Execute javascript
+            try {
+                js.executeScript("arguments[0].setAttribute('style','background: yellow')", element);
+                Thread.sleep(100);
+                js.executeScript("arguments[0].setAttribute('style','background:')", element);
+            } catch (InterruptedException e) {
+                // TODO Auto-generated catch block
+                throw new Exception("Class SeleniumUtils | Method fnHighlightMe | Exception desc: Exception");
+            }
+        }
     }
 }

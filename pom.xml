@@ -35,7 +35,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>ExecuteAutomation</projectName>
+                            <projectName>MeetUp2017</projectName>
                             <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
                         </configuration>
