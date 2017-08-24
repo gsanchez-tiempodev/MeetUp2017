@@ -132,7 +132,7 @@ formatter.match({
   "location": "RegisterSteps.userMustBeOnDemoAutWebApplication()"
 });
 formatter.result({
-  "duration": 4561056835,
+  "duration": 4636552770,
   "status": "passed"
 });
 formatter.scenario({
@@ -210,7 +210,7 @@ formatter.match({
   "location": "RegisterSteps.userEnterFirstNameLastNamePhoneAndEmail(String,String,String,String)"
 });
 formatter.result({
-  "duration": 3265598841,
+  "duration": 3274813343,
   "status": "passed"
 });
 formatter.match({
@@ -239,7 +239,7 @@ formatter.match({
   "location": "RegisterSteps.userEnterAddressCityStatePostalCodeAndSelectHisCountry(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 3652018136,
+  "duration": 3420874374,
   "status": "passed"
 });
 formatter.match({
@@ -260,14 +260,14 @@ formatter.match({
   "location": "RegisterSteps.userCreateHisLoginCredentialsAsUserNamePasswordAndUserConfirmHisPassword(String,String,String)"
 });
 formatter.result({
-  "duration": 2087281012,
+  "duration": 2144885619,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterSteps.userClickOnSubmitButton()"
 });
 formatter.result({
-  "duration": 1132303845,
+  "duration": 2792640859,
   "status": "passed"
 });
 formatter.match({
@@ -280,11 +280,11 @@ formatter.match({
   "location": "RegisterSteps.ApplicationMustDirectTheUserToRegisterWebPageAndDisplaysTheUserName(String)"
 });
 formatter.result({
-  "duration": 1070331373,
+  "duration": 1044179315,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1111136241,
+  "duration": 1077536763,
   "status": "passed"
 });
 formatter.background({
@@ -303,7 +303,7 @@ formatter.match({
   "location": "RegisterSteps.userMustBeOnDemoAutWebApplication()"
 });
 formatter.result({
-  "duration": 3800801153,
+  "duration": 3623533001,
   "status": "passed"
 });
 formatter.scenario({
@@ -381,7 +381,7 @@ formatter.match({
   "location": "RegisterSteps.userEnterFirstNameLastNamePhoneAndEmail(String,String,String,String)"
 });
 formatter.result({
-  "duration": 1949641939,
+  "duration": 3088126417,
   "status": "passed"
 });
 formatter.match({
@@ -410,7 +410,7 @@ formatter.match({
   "location": "RegisterSteps.userEnterAddressCityStatePostalCodeAndSelectHisCountry(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 2585837140,
+  "duration": 3273433660,
   "status": "passed"
 });
 formatter.match({
@@ -431,14 +431,14 @@ formatter.match({
   "location": "RegisterSteps.userCreateHisLoginCredentialsAsUserNamePasswordAndUserConfirmHisPassword(String,String,String)"
 });
 formatter.result({
-  "duration": 1479067253,
+  "duration": 1726910318,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterSteps.userClickOnSubmitButton()"
 });
 formatter.result({
-  "duration": 876351459,
+  "duration": 1514343193,
   "status": "passed"
 });
 formatter.match({
@@ -451,11 +451,11 @@ formatter.match({
   "location": "RegisterSteps.ApplicationMustDirectTheUserToRegisterWebPageAndDisplaysTheUserName(String)"
 });
 formatter.result({
-  "duration": 1069891491,
+  "duration": 1142295409,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1026269109,
+  "duration": 1013264442,
   "status": "passed"
 });
 formatter.background({
@@ -474,7 +474,7 @@ formatter.match({
   "location": "RegisterSteps.userMustBeOnDemoAutWebApplication()"
 });
 formatter.result({
-  "duration": 3687913688,
+  "duration": 3942725399,
   "status": "passed"
 });
 formatter.scenario({
@@ -552,7 +552,7 @@ formatter.match({
   "location": "RegisterSteps.userEnterFirstNameLastNamePhoneAndEmail(String,String,String,String)"
 });
 formatter.result({
-  "duration": 3074944666,
+  "duration": 3125124507,
   "status": "passed"
 });
 formatter.match({
@@ -581,7 +581,7 @@ formatter.match({
   "location": "RegisterSteps.userEnterAddressCityStatePostalCodeAndSelectHisCountry(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 3316817787,
+  "duration": 3702799089,
   "status": "passed"
 });
 formatter.match({
@@ -602,14 +602,14 @@ formatter.match({
   "location": "RegisterSteps.userCreateHisLoginCredentialsAsUserNamePasswordAndUserConfirmHisPassword(String,String,String)"
 });
 formatter.result({
-  "duration": 2182523333,
+  "duration": 2015473672,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterSteps.userClickOnSubmitButton()"
 });
 formatter.result({
-  "duration": 2924991524,
+  "duration": 1808701293,
   "status": "passed"
 });
 formatter.match({
@@ -622,11 +622,11 @@ formatter.match({
   "location": "RegisterSteps.ApplicationMustDirectTheUserToRegisterWebPageAndDisplaysTheUserName(String)"
 });
 formatter.result({
-  "duration": 1105836128,
+  "duration": 965259848,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1065461326,
+  "duration": 1072642928,
   "status": "passed"
 });
 });

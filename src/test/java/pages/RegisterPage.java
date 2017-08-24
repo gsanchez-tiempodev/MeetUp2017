@@ -6,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import utils.BaseClass;
 
+import java.net.MalformedURLException;
+
 /**
  * Created by gilsa on 17/08/2017.
  */
@@ -127,7 +129,7 @@ public class RegisterPage extends BaseClass{
         return lblRegister.getText();
     }
 
-    public RegisterPage() {
+    public RegisterPage() throws MalformedURLException {
         PageFactory.initElements(getDriver(), this);
     }
 

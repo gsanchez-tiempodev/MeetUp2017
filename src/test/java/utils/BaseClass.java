@@ -3,19 +3,27 @@ package utils;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 /**
  * Created by gilsa on 17/08/2017.
  */
 public class BaseClass {
 
-    WebDriver driver;
-
-    public WebDriver getDriver() {
+    //WebDriver driver;
+    RemoteWebDriver driver;
+    public WebDriver getDriver() throws MalformedURLException{
         if (driver == null) {
-            System.setProperty("webdriver.chrome.driver", "C:\\Libs\\chromedriver.exe");
-            driver = new ChromeDriver();
+//            System.setProperty("webdriver.chrome.driver", "C:\\Libs\\chromedriver.exe");
+//            driver = new ChromeDriver();
+            DesiredCapabilities cap = DesiredCapabilities.chrome();
+            cap.setCapability("version","");
+            cap.setCapability("platform","LINUX");
+            driver = new RemoteWebDriver(new URL("http://localhost:4446/wd/hub"),cap);
         }
         return driver;
     }

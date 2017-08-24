@@ -8,12 +8,17 @@ import cucumber.api.java.en.When;
 import org.testng.Assert;
 import pages.RegisterPage;
 
+import java.net.MalformedURLException;
+
 /**
  * Created by gilsa on 17/08/2017.
  */
 public class RegisterSteps{
 
     RegisterPage regPage = new RegisterPage();
+
+    public RegisterSteps() throws MalformedURLException {
+    }
 
     @Given("^user must be on demo aut web application$")
     public void userMustBeOnDemoAutWebApplication() throws Throwable {
@@ -52,7 +57,7 @@ public class RegisterSteps{
     }
 
     @After
-    public void tearDown(){
+    public void tearDown() throws MalformedURLException {
         regPage.getDriver().quit();
     }
 }
