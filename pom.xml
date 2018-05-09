@@ -4,21 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>MeetupDemo</groupId>
-    <artifactId>MeetupDemo</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>org.titanium.sgvirtual</groupId>
+    <artifactId>demo-sgvirtual</artifactId>
+    <version>1.14</version>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.5.1</version>
+                <version>3.7.0</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.19.1</version>
+                <version>2.21.0</version>
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
@@ -35,7 +35,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>MeetUp2017</projectName>
+                            <projectName>SGVirtual14</projectName>
                             <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
                         </configuration>
@@ -58,7 +58,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.4.0</version>
+            <version>3.11.0</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-core -->
@@ -96,7 +96,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-chrome-driver</artifactId>
-            <version>3.4.0</version>
+            <version>3.11.0</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->

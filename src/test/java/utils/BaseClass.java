@@ -18,7 +18,7 @@ public class BaseClass {
     RemoteWebDriver driver;
     public WebDriver getDriver() throws MalformedURLException{
         if (driver == null) {
-//            System.setProperty("webdriver.chrome.driver", "C:\\Libs\\chromedriver.exe");
+//            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 //            driver = new ChromeDriver();
             DesiredCapabilities cap = DesiredCapabilities.chrome();
             cap.setCapability("version","");
@@ -43,7 +43,7 @@ public class BaseClass {
             //Execute javascript
             try {
                 js.executeScript("arguments[0].setAttribute('style','background: yellow')", element);
-                Thread.sleep(100);
+                Thread.sleep(30);
                 js.executeScript("arguments[0].setAttribute('style','background:')", element);
             } catch (InterruptedException e) {
                 // TODO Auto-generated catch block
